@@ -17,7 +17,7 @@ import java.io.IOException;
 @RequestMapping("/api/v1/file")
 @RequiredArgsConstructor
 public class FileController {
-    //some changes fdf
+    //some changes
     private final FileService fileService;
     @PostMapping("/upload")
     public ResponseEntity<?> uploadFile(@RequestParam("file") MultipartFile file)
